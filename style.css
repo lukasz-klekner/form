@@ -5,3 +5,12 @@ html {
 *::after,
 *::before {
   box-sizing: inherit; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: #000; }
