@@ -19,3 +19,7 @@ body {
   background-color: #efefef;
   padding: 50px;
   text-align: center; }
+
+.header__title {
+  font-family: Roboto, sans-serif;
+  font-size: 50px; }
