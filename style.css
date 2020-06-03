@@ -14,3 +14,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 10px;
   color: #000; }
+
+.main {
+  background-color: #efefef;
+  padding: 50px;
+  text-align: center; }
