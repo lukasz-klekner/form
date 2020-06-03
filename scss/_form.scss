@@ -1,0 +1,39 @@
+.form {
+    &__button {
+        padding: 15px;
+        width: 200px;
+        height: 50px;
+        line-height: 20px;
+        font-size: 20px;
+        border: none;
+        border-radius: 25px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #fff;
+        background-color: green;
+
+        &:hover {
+            background-color: rgb(23, 70, 23);
+            border: 2px solid rgb(40, 156, 40);
+        }
+    }
+
+    &__input {
+        min-width: 300px;
+        border-radius: 5px;
+        border: 1px solid #efefef;
+
+        &:focus {
+            outline: none;
+            border: 2px solid black;
+        }
+    }
+
+    &__item {
+        margin-bottom: 25px;
+    }
+
+    &__label {
+        font-size: 20px;
+    }
+}
